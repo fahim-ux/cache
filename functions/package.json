@@ -1,0 +1,24 @@
+{
+  "name": "functions",
+  "version": "1.0.0",
+  "description": "These are the cloud functions",
+  "license": "ISC",
+  "author": "fahim-ux",
+  "type": "commonjs",
+  "main": "index.ts",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "@types/node": "^22.13.10",
+    "cors": "^2.8.5",
+    "express": "^4.21.2",
+    "firebase-admin": "^13.2.0",
+    "firebase-functions": "^6.3.2",
+    "multer": "^1.4.5-lts.1"
+  },
+  "devDependencies": {
+    "@types/multer": "^1.4.12",
+    "typescript": "^5.8.2"
+  }
+}
